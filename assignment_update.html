@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Practice3</title>
+    </head>
+    <body>
+      <script type="text/javascript">
+           document.write("hello world");
+
+           var bank1 = {
+           principal: 100000,
+           rate: 2.4,
+           simpleInterest: "(principal*rate)",
+           }
+           console.log(bank1.simpleInterest, "for 10% in 24 months");
+
+           var bank2 = { 
+           principal: 100000,
+           rate: 0.6,
+           numberOfYears: 2,
+           amount: "principal * (1+(rate))**numberOfYears",
+           }
+           console.log(bank2.amountj, "2.5% in 24 months");
+
+           var bank2 = {
+           principal: 100000, 
+           amount: 105063,
+           compoundInterest: "(amount-principal)",
+           }
+           console.log(bank2.compoundInterest);
+
+           if (bank1 > bank2) {
+               alert("joseph should choose bank1")
+             }
+             else {
+              alert("joseph should choose bank2")
+             }
+         </script>
+    </body>
+    </html>
+
+ 
